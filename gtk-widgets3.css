@@ -1,0 +1,18 @@
+/*GtkButton, GtkEntry {*/
+/*    color: @fg_color;*/
+/*    background-color: @fg_color;*/
+/*    font: Comic Sans 12*/
+/*}*/
+
+GtkButton:hover,
+GtkButton:prelight {
+    background-color: @bg_color;
+    -unico-inner-stroke-width: 0;
+    -unico-line-width: 0
+}
+
+
+/*MyButton {*/
+/*    color: #00ffea;*/
+/*    font: Comic Sans 8*/
+/*}*/
